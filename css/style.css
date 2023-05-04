@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+
+}
+
+
+.nav {
+    /* position: fixed; */
+    /* width: 100%; */
+    /* padding: 10px 0; */
+    /* color: crimson; */
+     font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+
+
+}
+.dhruvi{
+    display: none;
+}
+.button2{
+    font-family: 'Poppins', sans-serif;
+    
+    background-color:crimson ;
+}
+.button1 :hover{
+    color: crimson;
+    
+}
+
+
+
+
+
+
+
