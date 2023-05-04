@@ -17,31 +17,24 @@
 
 
 .nav {
-    /* position: fixed; */
-    /* width: 100%; */
-    /* padding: 10px 0; */
-    /* color: crimson; */
-     font-family: 'Poppins', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 
 
 }
-.dhruvi{
+
+.dhruvi {
     display: none;
 }
-.button2{
+
+.button2 {
     font-family: 'Poppins', sans-serif;
-    
-    background-color:crimson ;
+
+    background-color: crimson;
 }
-.button1 :hover{
+
+.button1 :hover {
     color: crimson;
-    
+
 }
-
-
-
-
-
-
-
