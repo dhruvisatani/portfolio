@@ -1,13 +1,13 @@
 {
     "scripts": {
         "start": "vite",
-        "build":"vite build"
-        
+        "build": "vite build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
         "postcss": "^8.4.23",
-        "tailwindcss": "^3.3.2"
+        "tailwindcss": "^3.3.2",
+        "vite-plugin-static-copy": "^0.14.0"
     },
     "dependencies": {
         "start": "^5.1.0",
