@@ -9,6 +9,10 @@ export default defineConfig({
                     src: 'img/[!.]*', // 1️⃣
                     dest: './img', // 2️⃣
                 },
+                {
+                    src: 'script/[!.]*', // 1️⃣
+                    dest: './script', // 2️⃣
+                }
             ],
         }),
     ]
