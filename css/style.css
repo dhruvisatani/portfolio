@@ -14,10 +14,6 @@
     color: crimson;
 
 }
-
-
-
-
 .dhruvi {
     display: none;
 }
@@ -33,21 +29,12 @@
 
 }
 
-
-
-
-
-
 .nav-links {
-    width: 40%;
-    text-transform: uppercase;
+    width: 50%;
 }
 
 .nav-links a {
-    display: block;
-    text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
     border-bottom: 2px solid transparent;
     transition: 0.5s ease;
     transform: translateX(0%);
@@ -65,10 +52,10 @@
 .burger div {
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: crimson;
     margin: 5px;
     transition: all 0.5s ease;
-}
+} 
 
 @media only screen and (max-width: 760px) {
     nav {
@@ -81,14 +68,13 @@
         right: 0;
         top: 8vh;
         min-height: 92vh;
-        /* background: #333; */
         display: flex;
+        color: black;
         flex-direction: column;
         align-items: center;
         width: 50%;
         margin: 0;
         padding: 0;
-        transform: translateX(100%);
         transition: All 0.5s ease-in;
     }
 
@@ -103,7 +89,7 @@
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 605px) {
     nav {
         justify-content: space-between;
         padding: 0 5vw;
@@ -114,7 +100,7 @@
     transform: translateX(0);
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 320px) {
     .nav-links {
         width: 100%;
         transition: All 0.5s ease;
