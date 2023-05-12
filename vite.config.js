@@ -13,6 +13,11 @@ export default defineConfig({
                     src: 'script/[!.]*', // 1️⃣
                     dest: './script', // 2️⃣
                 },
+                {
+                    src: 'files/[!.]*', // 1️⃣
+                    dest: './pdf', // 2️⃣
+                }
+                
             ],
         }),
     ]
