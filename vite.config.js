@@ -15,7 +15,7 @@ export default defineConfig({
                 },
                 {
                     src: 'files/[!.]*', // 1️⃣
-                    dest: './pdf', // 2️⃣
+                    dest: './files', // 2️⃣
                 }
                 
             ],
