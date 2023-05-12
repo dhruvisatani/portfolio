@@ -12,7 +12,7 @@ export default defineConfig({
                 {
                     src: 'script/[!.]*', // 1️⃣
                     dest: './script', // 2️⃣
-                }
+                },
             ],
         }),
     ]
